@@ -8,10 +8,10 @@ import Twitter from "./../../public/Twitter.png"
 
 
 
-export const Footer = () => {
+const Footer = () => {
   return (
-    <div className="bottom-0 w-full my-5">
-        <div className=" grid grid-cols-3 gap-4  justify-center bg-compback w-full ">
+    <div className="w-full my-5">
+        <div className=" grid grid-cols-3 gap-4  justify-center bg-footer w-full ">
             <div className="flex flex-col m-3">
                 <p>Find the perfect job for yourself</p>
                 <div className="flex gap-2">
@@ -49,3 +49,5 @@ export const Footer = () => {
     </div>
   )
 }
+
+export default Footer;

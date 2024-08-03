@@ -6,7 +6,9 @@ export default {
   theme: {
     extend: {
       colors:{
-        compback:"#F1F2F4"
+        compback:"#F1F2F4",
+        footer:"#EBF0F3",
+
 
       }
     },

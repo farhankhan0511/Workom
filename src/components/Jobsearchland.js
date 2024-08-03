@@ -4,7 +4,7 @@ import fi_search from "../../public/fi_search.jpg"
 import locationlogo from "../../public/locationlogo.jpg"
 
 
-export const Jobsearchland = () => {
+const Jobsearchland = () => {
   return (
     <div className="flex border border-solid border-black justify-between bg-compback my-5">
 
@@ -25,3 +25,4 @@ export const Jobsearchland = () => {
     </div>
   )
 }
+export default Jobsearchland;

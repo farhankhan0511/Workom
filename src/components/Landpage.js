@@ -1,5 +1,5 @@
 import React from 'react'
-import { Jobsearchland } from './Jobsearchland'
+import Jobsearchland  from './Jobsearchland'
 
 const Landpage = () => {
   return (
@@ -10,4 +10,4 @@ const Landpage = () => {
   )
 }
 
-export default Landpage
+export default Landpage;

@@ -12,7 +12,7 @@ return <div  className="w-full flex justify-between  ">
 <div className="flex items-center">
 <ul className="flex  gap-10">
     <Link><li>Home</li></Link>
-    <Link><li>Jobs</li></Link>
+    <Link to="/jobs"><li>Jobs</li></Link>
     <Link><li>Profile</li></Link>
 </ul>
 </div>
